@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <title>UNCERTAINTY</title>
     <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+
 </head>
 <body>
     <nav class="nav">
@@ -62,49 +63,33 @@
         <hr class="line">
     </nav>
 
-    <form class="Reg_Group" action="/main" method="post">
-    <div class="registration">
-        Регистрация
-    </div>
-
-    <div class="Name_Frame">
-        <label for="name_1">Имя</label>
-        <input type="text" id="firstname" name="firstname">
-    </div>
-
-    <small class="error_8">Укажите Имя</small>
-
-    <div class="Email_Frame_2">
-        <label for="email_1">Email</label>
-        <input type="text" id="email" name="email">
-    </div>
-
-    <small class="error_1">Укажите адрес Email</small>
-    <small class="error_2">Проверьте правильность адреса Email</small>
-
-    <div class="Password_Frame_2">
-        <label for="pass_1">Пароль</label>
-        <input type="password" id="password" name="password">
-    </div>
-
-        <small class="error_3">Введите пароль</small>
-        <small class="error_7">Пароль не может быть короче 8 символов</small>
-
-    <div class="Check_2">
-        <input type="checkbox" onclick="change_2()">
-    </div>
-
-    <label class="Show_2">Показать пароль</label>
-    
-    <input type="submit" class="Button_Frame_2" value="Создать аккаунт">
-
-    <a href="/login" class="SigninLink">Войти</a>
+    <form class="New_Group">
+        <div class="new">
+            Новинки
+        </div>
+        <div class="New_Cloth">
+                <div class="New_Cloth_1"><a href="/sproduct">
+                <div class="image_1"><img src="images/clothes/1.jpg"></div>
+                <div class="text_1">Altered jeans</div>
+                <div class="text_1_1">10 000 р.</div>
+            </div>
+            </a>
+            <div class="New_Cloth_2"><a href="/sproduct_2">
+                <div class="image_2"><img src="images/clothes/2.jpg"></div>
+                <div class="text_2">Crumpled jeans</div>
+                <div class="text_2_1">10 000 р.</div>
+            </div></a>
+            <div class="New_Cloth_3">
+            <a href="/sproduct_3"><div class="image_3"><img src="images/clothes/3.jpg"></div>
+                <div class="text_3">Handlethetruth sweater</div>
+                <div class="text_3_1">7 000 р.</div>
+            </div></a>
+        </div>
     </form>
 
-    <footer class="footer">
+    <footer class="footer_newclo">
         <div class="container">
             <div class="row">
-               
                 <div class="Company">
                     <ul>
                         <h4>Компания</h4>
@@ -130,19 +115,15 @@
         </div>
     </footer>
     
-
-    <div class="Pravicy">2022, UNCERTAINTY</div>
-    <div class="VK">
+    <div class="Pravicy_11">2022, UNCERTAINTY</div>
+    <div class="VK_11">
         <a href="https://vk.com/", target=https://vk.com/_blank><img src="images/icons/Вк.svg"></a>
     </div>
 
-    <div class="TG">
+    <div class="TG_11">
         <a href="https://telegram.org/", target=https://telegram.org/_blank><img src="images/icons/Тг.svg"></a>
     </div>
-
-<script src="js/reg.js">
-</script>
-
+    
 <script src="js/script.js">
 </script>
 

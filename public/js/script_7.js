@@ -1,16 +1,16 @@
-function sizeValue(){
-    var selectedValue = document.getElementById('s1').value;
+function sizeValue7(){
+    var selectedValue = document.getElementById('s7').value;
 localStorage.setItem("size",selectedValue);
 }
 
-let carts = document.querySelectorAll('.cart1');
+let carts = document.querySelectorAll('.cart7');
 
 let products = [
     {
-        name: "Altered grey jeans",
-        tag: "greyjeans",
+        name: "Woolen sweater",
+        tag: "blackwhitesweater",
         size: "One size", //localStorage.getItem("size"),
-        price: 10000,
+        price: 15000,
         inCart: 0
     }
 ];
@@ -84,4 +84,4 @@ function totalCost(product) {
 }
 
 onloadcartNumbers();
-sizeValue();
+sizeValue7()

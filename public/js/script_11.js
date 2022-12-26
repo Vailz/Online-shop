@@ -1,14 +1,14 @@
-function sizeValue(){
-    var selectedValue = document.getElementById('s1').value;
+function sizeValue11(){
+    var selectedValue = document.getElementById('s11').value;
 localStorage.setItem("size",selectedValue);
 }
 
-let carts = document.querySelectorAll('.cart1');
+let carts = document.querySelectorAll('.cart11');
 
 let products = [
     {
-        name: "Altered grey jeans",
-        tag: "greyjeans",
+        name: "Bubble hoodie",
+        tag: "whitehoodie",
         size: "One size", //localStorage.getItem("size"),
         price: 10000,
         inCart: 0
@@ -84,4 +84,4 @@ function totalCost(product) {
 }
 
 onloadcartNumbers();
-sizeValue();
+sizeValue11()

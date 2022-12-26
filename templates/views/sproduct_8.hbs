@@ -50,7 +50,7 @@
                     </ul>
             </div>
         </div>
-                <div class="csize">
+        <div class="csize">
             <span>0</span>
         </div>
         <div class="search-bar">
@@ -62,49 +62,25 @@
         <hr class="line">
     </nav>
 
-    <form class="Reg_Group" action="/main" method="post">
-    <div class="registration">
-        Регистрация
-    </div>
+    <section id="prodet" class="New_Cloth">
+        <div class="single-pro-image">
+            <img src="images/clothes/5.jpg" id="MainImg" width="654" height="654">
+        </div>
+    </section>
+            <div class="p_name_1">Distressed patch jeans</div>
+        <div class="p_price_1">12 000 р.</div>
+        <div class="p_size_1">Размер</div>
+        <select class="select_1" id="s8" onchange="sizeValue8();">
+            <option value="One size">One size</option>
+        </select>
+        <input type="submit" class="add-cart cart8" value="Добавить в корзину" onclick="sizeValue8();">
+        <div class="p_about_1">Материал: Деним плотностью 15 унций.</div>
+        <div class="p_size_2">Размер "One Size" — это универсальный размер одежды, подходящей людям любой комплекции.</div>
 
-    <div class="Name_Frame">
-        <label for="name_1">Имя</label>
-        <input type="text" id="firstname" name="firstname">
-    </div>
 
-    <small class="error_8">Укажите Имя</small>
-
-    <div class="Email_Frame_2">
-        <label for="email_1">Email</label>
-        <input type="text" id="email" name="email">
-    </div>
-
-    <small class="error_1">Укажите адрес Email</small>
-    <small class="error_2">Проверьте правильность адреса Email</small>
-
-    <div class="Password_Frame_2">
-        <label for="pass_1">Пароль</label>
-        <input type="password" id="password" name="password">
-    </div>
-
-        <small class="error_3">Введите пароль</small>
-        <small class="error_7">Пароль не может быть короче 8 символов</small>
-
-    <div class="Check_2">
-        <input type="checkbox" onclick="change_2()">
-    </div>
-
-    <label class="Show_2">Показать пароль</label>
-    
-    <input type="submit" class="Button_Frame_2" value="Создать аккаунт">
-
-    <a href="/login" class="SigninLink">Войти</a>
-    </form>
-
-    <footer class="footer">
+    <footer class="footer_product">
         <div class="container">
             <div class="row">
-               
                 <div class="Company">
                     <ul>
                         <h4>Компания</h4>
@@ -131,19 +107,17 @@
     </footer>
     
 
-    <div class="Pravicy">2022, UNCERTAINTY</div>
-    <div class="VK">
+    <div class="Pravicy_10">2022, UNCERTAINTY</div>
+
+    <div class="VK_10">
         <a href="https://vk.com/", target=https://vk.com/_blank><img src="images/icons/Вк.svg"></a>
     </div>
 
-    <div class="TG">
+    <div class="TG_10">
         <a href="https://telegram.org/", target=https://telegram.org/_blank><img src="images/icons/Тг.svg"></a>
     </div>
-
-<script src="js/reg.js">
-</script>
-
-<script src="js/script.js">
+    
+<script src="js/script_8.js">
 </script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

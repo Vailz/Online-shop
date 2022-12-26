@@ -1,16 +1,16 @@
-function sizeValue(){
-    var selectedValue = document.getElementById('s1').value;
+function sizeValue4(){
+    var selectedValue = document.getElementById('s4').value;
 localStorage.setItem("size",selectedValue);
 }
 
-let carts = document.querySelectorAll('.cart1');
+let carts = document.querySelectorAll('.cart4');
 
 let products = [
     {
-        name: "Altered grey jeans",
-        tag: "greyjeans",
+        name: "Human T-shirt",
+        tag: "whitetshirt",
         size: "One size", //localStorage.getItem("size"),
-        price: 10000,
+        price: 2000,
         inCart: 0
     }
 ];
@@ -84,4 +84,4 @@ function totalCost(product) {
 }
 
 onloadcartNumbers();
-sizeValue();
+sizeValue4()

@@ -34,6 +34,94 @@ app.get("/registration", (req, res) => {
     res.render("registration")
 })
 
+app.get("/contact", (req, res) => {
+    res.render("contact")
+})
+
+app.get("/aboutus", (req, res) => {
+    res.render("aboutus")
+})
+
+app.get("/return", (req, res) => {
+    res.render("return")
+})
+
+app.get("/delivery", (req, res) => {
+    res.render("delivery")
+})
+
+app.get("/questions", (req, res) => {
+    res.render("questions")
+})
+
+app.get("/privacypolicy", (req, res) => {
+    res.render("privacypolicy")
+})
+
+app.get("/contractoffer", (req, res) => {
+    res.render("contractoffer")
+})
+
+app.get("/sproduct", (req, res) => {
+    res.render("sproduct")
+})
+
+app.get("/sproduct_2", (req, res) => {
+    res.render("sproduct_2")
+})
+
+app.get("/sproduct_3", (req, res) => {
+    res.render("sproduct_3")
+})
+
+app.get("/newclo", (req, res) => {
+    res.render("newclo")
+})
+
+app.get("/saleclo", (req, res) => {
+    res.render("saleclo")
+})
+
+app.get("/sproduct_4", (req, res) => {
+    res.render("sproduct_4")
+})
+
+app.get("/sproduct_5", (req, res) => {
+    res.render("sproduct_5")
+})
+
+app.get("/sproduct_6", (req, res) => {
+    res.render("sproduct_6")
+})
+
+app.get("/sproduct_7", (req, res) => {
+    res.render("sproduct_7")
+})
+
+app.get("/sproduct_8", (req, res) => {
+    res.render("sproduct_8")
+})
+
+app.get("/sproduct_9", (req, res) => {
+    res.render("sproduct_9")
+})
+
+app.get("/sproduct_10", (req, res) => {
+    res.render("sproduct_10")
+})
+
+app.get("/sproduct_11", (req, res) => {
+    res.render("sproduct_11")
+})
+
+app.get("/sproduct_12", (req, res) => {
+    res.render("sproduct_12")
+})
+
+app.get("/allclo", (req, res) => {
+    res.render("allclo")
+})
+
 // Registration and Login
 app.post("/main", async (req, res) => {
 

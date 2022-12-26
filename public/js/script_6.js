@@ -1,16 +1,16 @@
-function sizeValue(){
-    var selectedValue = document.getElementById('s1').value;
+function sizeValue6(){
+    var selectedValue = document.getElementById('s6').value;
 localStorage.setItem("size",selectedValue);
 }
 
-let carts = document.querySelectorAll('.cart1');
+let carts = document.querySelectorAll('.cart6');
 
 let products = [
     {
-        name: "Altered grey jeans",
-        tag: "greyjeans",
+        name: "Boot-cut jeans",
+        tag: "whitejeans",
         size: "One size", //localStorage.getItem("size"),
-        price: 10000,
+        price: 8900,
         inCart: 0
     }
 ];
@@ -84,4 +84,4 @@ function totalCost(product) {
 }
 
 onloadcartNumbers();
-sizeValue();
+sizeValue6()

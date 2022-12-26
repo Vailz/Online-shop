@@ -1,16 +1,16 @@
-function sizeValue(){
-    var selectedValue = document.getElementById('s1').value;
+function sizeValue8(){
+    var selectedValue = document.getElementById('s8').value;
 localStorage.setItem("size",selectedValue);
 }
 
-let carts = document.querySelectorAll('.cart1');
+let carts = document.querySelectorAll('.cart8');
 
 let products = [
     {
-        name: "Altered grey jeans",
-        tag: "greyjeans",
+        name: "Distressed patch jeans",
+        tag: "bluejeans",
         size: "One size", //localStorage.getItem("size"),
-        price: 10000,
+        price: 12000,
         inCart: 0
     }
 ];
@@ -84,4 +84,4 @@ function totalCost(product) {
 }
 
 onloadcartNumbers();
-sizeValue();
+sizeValue8()

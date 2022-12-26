@@ -1,16 +1,16 @@
-function sizeValue(){
-    var selectedValue = document.getElementById('s1').value;
+function sizeValue9(){
+    var selectedValue = document.getElementById('s9').value;
 localStorage.setItem("size",selectedValue);
 }
 
-let carts = document.querySelectorAll('.cart1');
+let carts = document.querySelectorAll('.cart9');
 
 let products = [
     {
-        name: "Altered grey jeans",
-        tag: "greyjeans",
+        name: "Patterns hoodie",
+        tag: "bluehoodie",
         size: "One size", //localStorage.getItem("size"),
-        price: 10000,
+        price: 6000,
         inCart: 0
     }
 ];
@@ -84,4 +84,4 @@ function totalCost(product) {
 }
 
 onloadcartNumbers();
-sizeValue();
+sizeValue9()
