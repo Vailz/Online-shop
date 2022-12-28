@@ -122,6 +122,10 @@ app.get("/allclo", (req, res) => {
     res.render("allclo")
 })
 
+app.get("/cart", (req, res) => {
+    res.render("cart")
+})
+
 // Registration and Login
 app.post("/main", async (req, res) => {
 

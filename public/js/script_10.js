@@ -8,7 +8,7 @@ let carts = document.querySelectorAll('.cart10');
 let products = [
     {
         name: "Amphibian sweater",
-        tag: "blacksweater",
+        tag: "blackbluesweater",
         size: "One size", //localStorage.getItem("size"),
         price: 7000,
         inCart: 0

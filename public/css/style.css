@@ -900,19 +900,35 @@ width: 340px;
 height: 340px;
 left: 0px;
 top: 0px;
+overflow: hidden;
 }
 
 .image_2{
     position: absolute;
     width: 340px;
     height: 340px;
+    overflow: hidden;
 }
 
 .image_3{
     position: absolute;
     width: 340px;
     height: 340px;
+    overflow: hidden;
 }
+
+
+.image_1:hover{
+transform: scale(1.1);
+}
+
+.image_2:hover{
+    transform: scale(1.1);
+    }
+
+.image_3:hover{
+        transform: scale(1.1);
+        }
 
 .text_1{
     position: absolute;
@@ -1266,7 +1282,12 @@ color: #A8A8A8;
     position: absolute;
     width: 340px;
     height: 340px;
+    overflow: hidden;
 }
+
+.image_4:hover{
+    transform: scale(1.1);
+    }
 
 .text_4{
     position: absolute;
@@ -1316,7 +1337,12 @@ color: #000000;
     position: absolute;
     width: 340px;
     height: 340px;
+    overflow: hidden;
 }
+
+.image_5:hover{
+    transform: scale(1.1);
+    }
 
 .text_5{
     position: absolute;
@@ -1374,7 +1400,12 @@ color: #000000;
     position: absolute;
     width: 340px;
     height: 340px;
+    overflow: hidden;
 }
+
+.image_6:hover{
+    transform: scale(1.1);
+    }
 
 .text_6{
     position: absolute;
@@ -1492,15 +1523,47 @@ color: #FF4444;
     height: 22px;
     left: 0px;
     top: 617px;
-    
     overflow: hidden;
 
     background: #000000;
 }
 
-.line_2_1{
+/* .line_2_1{
     width: 100%;
+} */
 
+.line_2_1 {
+    position: absolute;
+    width: 200%;
+    height: 18px;
+    left: auto;
+    top:-12px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #fff;
+
+    animation: animate 500s linear infinite;
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: translateX(0%);
+    }
+    100%
+    {
+        transform: translateX(-100%);
+    }
+    
 }
 
 .error_1{
@@ -3680,7 +3743,7 @@ top: 283px;
     width: 100%;
     height: 235px;
     left: 0px;
-    top: 1170px;
+    top: 2045px;
     background-color: #000000;
 }
 
@@ -3695,7 +3758,7 @@ top: 283px;
 .Pravicy_13{
     position: absolute;
     left: 894px;
-    top: 1375px;
+    top: 2250px;
     
     font-family: 'Montserrat';
     font-style: normal;
@@ -3711,7 +3774,7 @@ top: 283px;
 width: 40px;
 height: 40px;
 left: 430px;
-top: 989px;
+top: 1864px;
 text-align: center;
 line-height: 55px;
 
@@ -3730,7 +3793,7 @@ color: #FFFFFF;
 width: 40px;
 height: 40px;
 left: 483px;
-top: 949px;
+top: 1824px;
 text-align: center;
 line-height: 54px;
 
@@ -3744,69 +3807,172 @@ color: #FFFFFF;
     cursor: pointer;
 }
 
-/* .body1{
-    height: 100vh;
-    display: flex;
+.New_Cloth_7{
+    position: absolute;
+width: 1140px;
+height: 403px;
+left: 390px;
+top: 1155px;
 }
 
-.marquee-w{
-    position: relative;
-    display: block;
+.Sale_Cloth_2{
+    position: absolute;
+    width: 1140px;
+    height: 403px;
+    left: 390px;
+    top: 1594px;
+}
+
+.cartempty{
+    position: absolute;
+width: 300px;
+height: 37px;
+left: 843px;
+top: 500px;
+
+opacity:100%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+
+color: #A8A8A8;
+}
+
+
+.product-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.products .pclose{
+    transform: scale(1.5);
+ margin-left: 10px;
+ margin-right: 10px;
+ cursor: pointer;
+}
+
+.pprice{
+    position: absolute;
+    margin-left: 625px;
+    margin-right: 10px;
+    cursor: pointer;
+   }
+
+
+.product-header{
     width: 100%;
-    height: 140px;
-    top: 550px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #A8A8A8;
+    margin: 0 auto;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 37px;
 }
 
-.marquee {
-    position: absolute;
-    display: block;
-    margin: auto auto;
-    white-space: nowrap;
-    overflow: hidden;
-    min-width: 100%;
-    height: 100%;
-} */
+.product-title{
+ width: 45%;
+}
 
-/* .marquee2 {
-    position: absolute;
-    display: block;
-    margin: auto auto;
-    white-space: nowrap;
-    overflow: hidden;
-    min-width: 100%;
-    height: 100%;
-} */
+.product-price{
+    width: 15%;
+    border-bottom: 1px  #A8A8A8;
+    display: flex;
+    align-items: center;
+    
+}
 
- /* span{
-    display: inline-block;
-    padding-left: 100%;
+.pprice{
+    width: 15%;
+    border-bottom: 1px  #A8A8A8;
+    display: flex;
+    align-items: center;
+}
+
+
+.pquantity{
+    position: relative;
+    width: 15%;
+    display: flex;
+    left: 445px;
+    bottom: 193px;
+    align-items: center;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    white-space: nowrap;
-    min-width: 100%;
-    height: 100%;
-    animation: animate 40s linear infinite;
-    padding-left: 100%;
-    line-height: 145px;
-    color: #000000;
+    line-height: 37px;
 }
 
-.marquee2 span{
-    animation-delay: 27s;
+.ptotal{
+    position: relative;
+    width: 15%;
+    display: flex;
+    left: 580px;
+    bottom: 229px;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 37px;
 }
 
-@keyframes animate{
-    0%{
-        transform: translate(0,0);
-    }
-    100%{
-        transform: translate(-100%, 0);
-    }
-} */
+.quantity{
+    width: 30%;
+    border-bottom: 1px  #A8A8A8;
+    display: flex;
+    align-items: center;
+}
+
+.total{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.product{
+    width: 45%;
+    
+    transform: scale(.50);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px  #A8A8A8;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.basketTotalContainer {
+    position: relative;
+    bottom: 10px;
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 37px;
+}
+
+.basketTotalTitle {
+
+    width: 10%;
+
+}
